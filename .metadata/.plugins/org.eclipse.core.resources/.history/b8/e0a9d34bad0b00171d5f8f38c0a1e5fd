@@ -1,0 +1,12 @@
+package by.htp.homelibrary.domain;
+
+public class Book extends PrintedEdition{
+	public Book(double price, String name) { 
+		super(price, name); 
+	}
+
+		
+	public String toString() { 
+		return "Book {price = " + super.price +", name = '" + super.name + "'}";
+	}
+}

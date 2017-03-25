@@ -1,0 +1,47 @@
+package by.htp.library;
+
+/*public abstract class PrintedEdition {
+	
+	private double price;
+	private String title;
+	
+	public PrintedEdition(){
+		
+	}
+	
+	public PrintedEdition(double price, String title){
+		this.price = price;
+		this.title = title;
+	}
+
+	public void setPrice (double price){
+		this.price = price;
+	}
+	public double getPrice(){
+		return price;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+}*/
+public class PrintedEdition { 
+double price; 
+String name; 
+
+@Override 
+public String toString() { 
+return "PrintedEdition{" + 
+"price=" + price + 
+", name='" + name + '\'' + 
+'}'; 
+} 
+
+public PrintedEdition(double price, String name){ 
+this.price = price; 
+this.name = name; 
+} 
+}

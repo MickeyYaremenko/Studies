@@ -1,0 +1,5 @@
+package by.htp.cw.entity;
+
+public class Airline {
+
+}

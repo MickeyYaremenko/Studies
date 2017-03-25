@@ -1,0 +1,19 @@
+package by.htp.hw2.main;
+
+public class Sorting {
+	
+	int arrayLength = (int)(Math.random()*10+1);
+	int [] array = new int [arrayLength];
+	public void fill(){
+	
+		for (int i=0;i<array.length;i++){
+			array[i] = (int)(Math.random()*10);
+		}
+		for (int i:array){
+			System.out.print(i);
+		}
+	}
+	
+	
+
+}

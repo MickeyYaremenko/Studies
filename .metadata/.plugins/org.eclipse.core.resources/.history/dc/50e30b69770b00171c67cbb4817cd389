@@ -1,0 +1,20 @@
+package by.htp.homelibrary;
+
+public abstract class PrintedEdition {
+	double price; 
+	String name; 
+
+	@Override 
+	public String toString() { 
+	return "PrintedEdition{" + 
+	"price=" + price + 
+	", name='" + name + '\'' + 
+	'}'; 
+	} 
+
+	public PrintedEdition(double price, String name){ 
+	this.price = price; 
+	this.name = name; 
+	} 
+	}
+

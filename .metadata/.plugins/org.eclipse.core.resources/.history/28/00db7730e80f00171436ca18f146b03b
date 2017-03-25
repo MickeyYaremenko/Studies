@@ -1,0 +1,15 @@
+package by.htp.smth;
+
+public class Railway extends Transport{
+	private int wagon;
+	private static int counterRailways;
+	{
+		wagon = 10;
+	}
+	public Railway(int mass, int wagon) {
+		super(mass);
+		this.wagon = wagon;
+	}
+	
+	
+}

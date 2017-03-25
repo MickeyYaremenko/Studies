@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Launcher.java&apos; to &apos;ConsoleLibrary/src/by.htp.launcher&apos;&#x0D;&#x0A;- Original project: &apos;ConsoleLibrary&apos;&#x0D;&#x0A;- Destination element: &apos;ConsoleLibrary/src/by.htp.launcher&apos;&#x0D;&#x0A;- Original element: &apos;by.htp.consolelibrary.Launcher.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;by.htp.launcher" element1="/src&lt;by.htp.consolelibrary{Launcher.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1489934216191" units="1" version="1.0"/>
+</session>

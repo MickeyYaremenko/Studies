@@ -1,0 +1,47 @@
+package by.htp.cw.entity;
+
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Store {
+
+	private Product[] store = new Product[0];
+
+	public void addProduct(Product product) {
+		store = Arrays.copyOf(store, store.length + 1);
+		store[store.length - 1] = product;
+	}
+
+	public void showStoreName() {
+		System.out.println("¬ведите наименование товара");
+		Scanner sc = new Scanner(new InputStreamReader(System.in));
+		String name = sc.nextLine();
+		for (int i = 0; i < store.length; i++) {
+			if (store[i].getName().toLowerCase().contains(name.toLowerCase()))
+				System.out.println(store[i]);
+		}
+	}
+
+	public void showStoreNamePrice() {
+		System.out.println("¬ведите наименование товара и цену");
+		Scanner sc = new Scanner(new InputStreamReader(System.in));
+		String name = sc.nextLine();
+		double price = sc.nextDouble();
+		for (int i = 0; i < store.length; i++) {
+			if (store[i].getName().contains(name) && store[i].getPrice() < price)
+				System.out.println(store[i]);
+		}
+	}
+	
+	public void showStoreLongevityDays(){
+		System.out.println("¬ведите минимальный срок годности");
+		for (int i = 0; i < store.length; i++) {
+			Scanner sc = new Scanner(new InputStreamReader(System.in));
+			int days = sc.nextInt();
+			if (store[i].getLongevityDays() == days)
+				System.out.println(store[i]);
+		}
+	}
+
+}

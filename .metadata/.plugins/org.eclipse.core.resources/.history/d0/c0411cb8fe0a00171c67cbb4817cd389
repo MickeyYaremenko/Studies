@@ -1,0 +1,32 @@
+package by.htp.library;
+
+public class Main {
+
+	public static void main(String[] args) {
+	 Book book = new Book();
+	 book.setPrice(15.3);
+	 book.setTitle("#1");
+	 Book book2 = new Book(18.6, "secondBook");
+	 System.out.println("Book1 ; price= "+book.getPrice()+""+"title "+ book.getTitle());
+	 System.out.println("Book2 ; price= "+book2.getPrice()+""+"title "+ book2.getTitle());
+	 /*book.price	= 15.3;*/
+	 Magazine magazine = new Magazine();
+	 magazine.setPrice(14.1);
+	 magazine.setTitle("#2");
+	 /*magazine.price = 15.4;*/
+	 
+	 
+	 
+	 
+	 PrintedEdition pre = new Book();
+	 Object obj = new Book();
+	 
+	 /*Дописать эту задачу таким обраом, чтобы у нас появился класс библиотека, 
+	  * в котором в качестве поля объявить массив печатных ихданий, написать метод добавления нового печатного издания, 
+	  * метод вывода всех печатных изданий на экран, количество печатных изданий неограничено 
+	  * (организовать простой список на основе массива)
+	  */
+
+	}
+
+}

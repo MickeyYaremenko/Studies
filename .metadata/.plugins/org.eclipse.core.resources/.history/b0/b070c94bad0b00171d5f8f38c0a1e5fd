@@ -1,0 +1,13 @@
+package by.htp.homelibrary.domain;
+
+public class Magazine extends PrintedEdition {
+	public Magazine(double price, String name) { 
+		super(price, name); 
+	} 
+
+	public String toString() { 
+		return "Magazine {price = " + super.price +", name = '" + super.name + "'}"; 
+	}
+}
+
+

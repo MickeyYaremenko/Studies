@@ -1,0 +1,31 @@
+package by.htp.consolelibrary;
+
+import java.util.ArrayList;
+
+public class Launcher {
+
+	public static void main(String[] args) {
+		ArrayList<Book> arrayOfBooks = new ArrayList<>();
+		Book book1 = new Book("Potter", "Rowling", 1995);
+		Book book2 = new Book("MOWGLY", "KIPLING", 1990);
+		Book book3 = new Book("LionKing", "Dont remember", 1985);
+		Book book4 = new Book("StarWars", "Lucas", 2003);
+		Book book5 = new Book("TMNT", "Nickelodeon", 1800);
+		
+		arrayOfBooks.add(book1);
+		arrayOfBooks.add(book2);
+		arrayOfBooks.add(book3);
+		arrayOfBooks.add(book4);
+		arrayOfBooks.add(book5);
+		
+		Library lib = new Library(arrayOfBooks);
+//		lib.printLib();
+//		lib.sortLib();
+//		lib.printLib();
+		
+		Console console = new Console();
+		console.launch();
+
+	}
+
+}

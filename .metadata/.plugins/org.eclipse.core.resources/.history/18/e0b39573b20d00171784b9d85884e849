@@ -1,0 +1,10 @@
+package by.htp.hw2.main;
+
+public class Sort {
+	public static void main(String [] Args){
+		Sorting sort = new Sorting();
+		sort.fill();
+		
+	}
+
+}

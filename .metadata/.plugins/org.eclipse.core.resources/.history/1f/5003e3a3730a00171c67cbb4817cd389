@@ -1,0 +1,7 @@
+package by.htp.library;
+
+public abstract class PrintedEdition {
+	
+	private double price;
+
+}

@@ -1,0 +1,15 @@
+package by.htp.cw.entity;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Store {
+	
+	private Product[] store = new Product[0];
+	
+	public void addProduct (Product product){
+		store = Arrays.copyOf(store, store.length+1); 
+		store[store.length - 1] = product;
+	}
+
+}

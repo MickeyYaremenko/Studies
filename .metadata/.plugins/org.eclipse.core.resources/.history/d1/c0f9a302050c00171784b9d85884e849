@@ -1,0 +1,5 @@
+package by.htp.persons;
+
+public interface TestInterface {
+
+}

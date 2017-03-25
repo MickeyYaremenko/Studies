@@ -1,0 +1,39 @@
+package by.htp.consolelibrary;
+
+import java.io.InputStreamReader;
+import java.util.Scanner;
+
+public class Console {
+	private Library library;
+	private static final String OPTION_ONE = "1. View the book presented in the library";
+	private static final String OPTION_TWO = "2. Sort our library by year of publishment and show it";
+	private static final String OPTION_THREE = "3. Search the book with defined author";
+	private static final String EXIT_STRING = "0. Exit our library =(";
+	
+	public Console(Library library){
+		this.library = library;
+	}
+
+	public void launch(){
+		System.out.println("Hello, welcome to our Library! Choose one of the options: \n" +
+				OPTION_ONE + "\n" + OPTION_TWO + "\n" + OPTION_THREE + "\n" + "Input your choice: " + "\n\n\n" + EXIT_STRING);
+		Scanner sc = new Scanner(new InputStreamReader(System.in));
+		int i = sc.nextInt();
+		switch (i){
+		case 1:
+			library.printLib();
+			break;
+		case 2:
+			library.sortLib();
+			library.printLib();
+			break;
+		case 3:
+			System.out.println("Input author name");
+			library.searchByAuthor(sc.nextLine());
+			
+			
+		}
+		
+	}
+
+}

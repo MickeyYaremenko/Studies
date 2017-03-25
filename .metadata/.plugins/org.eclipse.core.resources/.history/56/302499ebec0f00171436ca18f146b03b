@@ -1,0 +1,21 @@
+package by.htp.auto.launcher;
+
+import by.htp.auto.entity.Auto;
+import by.htp.auto.entity.Train;
+import by.htp.auto.entity.Transport;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Transport auto1 = new Auto();
+		Transport auto2 = new Auto();
+		Transport auto3 = new Auto();
+		Transport auto4 = new Auto();
+		Transport train1 = new Train();
+		Transport train2 = new Train();
+		Transport train3 = new Train();
+		Transport train4 = new Train();
+	}
+
+}

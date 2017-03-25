@@ -1,0 +1,44 @@
+package by.htp.auto.entity;
+
+public class Auto extends Transport {
+	private int passangers;
+	private static int autoCount;
+//	private static int counterAuto;
+	private static final int KOEFF_AMORTIZATION = 10;
+
+	{
+		passangers = 4;
+
+	}
+
+	{
+		autoCount++;
+	}
+
+	
+	public Auto() {
+		super();
+	}
+
+	public Auto(double mass, double race, int passangers) {
+		super(mass, race);
+		this.passangers = passangers;
+	}
+
+	@Override
+	public double amortisate(int years) {
+		double result = (totalRace() * years * KOEFF_AMORTIZATION) / PERCENTAGE;
+		return result;
+
+	}
+
+	public static int getAutoCount() {
+		return autoCount;
+	}
+
+	public static void setAutoCount(int autoCount) {
+		Auto.autoCount = autoCount;
+	}
+	
+
+}

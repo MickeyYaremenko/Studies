@@ -1,0 +1,27 @@
+package by.htp.hw2.main;
+
+public class IntArray {
+
+	private int arrayLength = (int) (Math.random() * 10 + 1);
+	private int[] array = new int[arrayLength];
+
+	public void fill() {
+
+		for (int i = 0; i < array.length; i++) {
+			array[i] = (int) (Math.random() * 10);
+		}
+		for (int i : array) {
+			System.out.print(i);
+		}
+	}
+
+	public void addElement(int element) {
+		for (int i = 0; i < array.length; i++) {
+			int[] temparr = new int[array.length + 1];
+			temparr[i] = array[i];
+			array = temparr;
+		}
+		array[array.length - 1] = element;
+	}
+
+}

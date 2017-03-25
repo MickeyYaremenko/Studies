@@ -1,0 +1,14 @@
+package by.htp.homelibrary;
+
+public class Magazine extends PrintedEdition {
+	public Magazine(double price, String name) { 
+		super(price, name); 
+		} 
+
+		@Override 
+	public String toString() { 
+		return "Magazine {price = " + super.price +", name = '" + super.name + "'}"; 
+		}
+}
+
+

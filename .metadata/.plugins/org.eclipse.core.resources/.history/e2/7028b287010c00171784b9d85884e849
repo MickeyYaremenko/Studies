@@ -1,0 +1,9 @@
+package by.htp.consolelibrary;
+
+import java.util.ArrayList;
+
+public class Library {
+	private ArrayList<Book> lib = new ArrayList<>();
+	
+
+}
