@@ -1,4 +1,4 @@
-package by.htp.entity;
+package by.htp.starsystem.entity;
 
 public class Planet {
 	private String name;

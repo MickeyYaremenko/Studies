@@ -1,9 +1,9 @@
-package by.htp.logic;
+package by.htp.starsystem.logic;
 
-import by.htp.entity.Moon;
-import by.htp.entity.Planet;
-import by.htp.entity.Star;
-import by.htp.entity.StarSystem;
+import by.htp.starsystem.entity.Moon;
+import by.htp.starsystem.entity.Planet;
+import by.htp.starsystem.entity.Star;
+import by.htp.starsystem.entity.StarSystem;
 
 public class Main {
 
