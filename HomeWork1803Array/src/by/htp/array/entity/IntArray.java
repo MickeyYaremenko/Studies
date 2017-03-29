@@ -1,4 +1,4 @@
-package by.htp.hw2.arrayandcheck;
+package by.htp.array.entity;
 
 public class IntArray {
 

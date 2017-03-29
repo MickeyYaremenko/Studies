@@ -1,12 +1,12 @@
-package by.htp.hw2.launcher;
+package by.htp.array.launcher;
 
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-import by.htp.hw2.arrayandcheck.InputCheck;
-import by.htp.hw2.arrayandcheck.IntArray;
+import by.htp.array.entity.InputCheck;
+import by.htp.array.entity.IntArray;
 
-public class Sort {
+public class Console {
 	public static void main(String[] Args) {
 		IntArray sort = new IntArray();
 		InputCheck check = new InputCheck();

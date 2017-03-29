@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;by.htp.cw.entity.Airline.java&apos; to &apos;Product.java&apos;&#x0D;&#x0A;- Original project: &apos;ClassWork2503&apos;&#x0D;&#x0A;- Original element: &apos;by.htp.cw.entity.Airline.java&apos;&#x0D;&#x0A;- Renamed element: &apos;by.htp.cw.entity.Product.java&apos;" description="Rename compilation unit &apos;Airline.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;by.htp.cw.entity{Airline.java" name="Product.java" references="false" stamp="1490425688352" version="1.0"/>
-</session>

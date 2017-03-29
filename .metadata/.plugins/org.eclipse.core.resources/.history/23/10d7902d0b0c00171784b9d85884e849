@@ -1,9 +1,0 @@
-package by.htp.consolelibrary;
-
-public class Console {
-	
-	public void launch(){
-		
-	}
-
-}

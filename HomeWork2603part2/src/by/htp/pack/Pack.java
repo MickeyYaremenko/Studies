@@ -5,7 +5,7 @@ import by.htp.smth.Coffee;
 public abstract class Pack {
 	private int volume;
 	private int packMass;
-	private Coffee coffee;
+	protected Coffee coffee;
 	protected static final double VOLUME_TO_MASS_COEFF_BEANS = 0.5;
 	protected static final double VOLUME_TO_MASS_COEFF_GRIND = 0.8;
 	protected static final double VOLUME_TO_MASS_COEFF_INSTANT = 0.4;

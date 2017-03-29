@@ -1,7 +1,0 @@
-package by.htp.smth;
-
-public class Trasport {
-	private int mass;
-	private static String producer;
-
-}
